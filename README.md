@@ -27,9 +27,7 @@
 
             X-AUTH-TOKEN: c56d0e9a7ccec67b4ea131655038d604
 
-    + Body
 
-            {}
 
 + Response 200 (application/json; charset=utf-8)
 
