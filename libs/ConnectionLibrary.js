@@ -6,10 +6,10 @@ var Database = (function () {
 
     function init() {
         var connection = mysql.createConnection({
-            host     : '178.62.51.216',
-            database : 'chatserver',
-            user     : 'chatserver',
-            password : 'tubik123'
+            host     : '',
+            database : '',
+            user     : '',
+            password : ''
         });
 
         connection.connect(function(err) {
