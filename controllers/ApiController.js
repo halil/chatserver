@@ -10,6 +10,10 @@ var ApiController = function (app) {
     var room = new Room();
 
     app.get('/', function (request, response) {
+        response.render('index.html');
+    });
+
+    app.get('/auth', function (request, response) {
         var authKey = request.get('X-AUTH-TOKEN');
         user.auth(authKey, function (status, result) {
             response.status(status);
