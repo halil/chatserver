@@ -6,6 +6,11 @@ patch:
   'npm:debug:20170905':
     - socket.io > socket.io-adapter > socket.io-parser > debug:
         patched: '2017-10-02T22:36:06.641Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-07T07:37:44.390Z'
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-07T07:37:44.390Z'
   SNYK-JS-LODASH-450202:
     - snyk > snyk-nodejs-lockfile-parser > lodash:
         patched: '2019-07-08T07:37:34.577Z'
